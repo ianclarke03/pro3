@@ -13,7 +13,7 @@ template <class T>
 class Network {
 
 
-  private:
+  protected:
 
 
    static const int DEFAULT_CAPACITY = 200;
