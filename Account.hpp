@@ -5,7 +5,7 @@
 #include "Post.hpp"
 #include "Network.hpp"
 
-/*
+/* 
   - A vector of usernames the Account is following  
    - A pointer to the Network this account is part of. Before the Account is added to a Network,
      the pointer is `nullptr`.

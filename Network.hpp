@@ -1,5 +1,6 @@
-#ifndef NETWORK_H
-#define NETWORK_H
+//#ifndef NETWORK_H
+//#define NETWORK_H
+#pragma once
 #include <vector>
 #include <string>
 #include <fstream>
@@ -19,7 +20,7 @@ class Network {
    static const int DEFAULT_CAPACITY = 200;
 
 
-   T items_[DEFAULT_CAPACITY]; //An array (with a capacity of 200) that stores POINTERS to the template items.
+   T items_[DEFAULT_CAPACITY]; //An array (with a capacity of 200) that stores POINTERS to the template items. 
 
 
    int item_count_; //A count of the current number of accounts in the network.
@@ -70,8 +71,8 @@ class Network {
 
 };
 
-#include "Network.cpp"
+//#include "Network.cpp"
 
-#endif
+//#endif
 
    
